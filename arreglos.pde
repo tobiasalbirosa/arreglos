@@ -26,7 +26,7 @@ void mousePressed(){
 int [][][] botones = {
   //AQUI ESTAMOS EN [0][][]//
   {
-      //AQUI ESTAMOS EN [0][1][]//:
+      //AQUI ESTAMOS EN [0][0][]//:
       {10,20,30,40},
       //AQUI ESTAMOS EN [0][1][]//:
       {50,60,70,80}
