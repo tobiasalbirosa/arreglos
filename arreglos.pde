@@ -1,10 +1,10 @@
 /* ARREGLO DE DOS DIMENSIONES, EXPLICADO CON LETRAS Y COMO GRILLA DE 10 EN 10
 */
-// PARA ENTENDER LA ESTRUCTURA Y LOS NIVELES DEL ARREGLO DE DOS DIMENSIONES
+// PARA ENTENDER LA ESTRUCTURA Y LOS NIVELES DEL ARREGLO DE MÚLTIPLES DIMENSIONES
 
 
-//DIGAMOS QUE LA LETRA "A", REPRESENTA AL PRIMER ARREGLO, EL CUAL POSEE DOS ARREGLOS digámosle "B"
-// CADA ARREGLO "B", POSEE 4 VALORES 
+//DIGAMOS QUE LA LETRA "A", REPRESENTA AL PRIMER ARREGLO, EL CUAL POSEE DOS ARREGLOS MÁS digámosle "B" y "C"
+// CADA "B", POSEERÁ 2 VALORES 
 /*  int [A][B][C] arreglo
 A->  { 
 B-->  {  
@@ -14,8 +14,8 @@ C--->  { 50, 60, 70, 80}
 B-->  { 
 C--->  { 90,100,110,120},
 C--->  { 130,140,150,160}
-      }  <--B                   
-      }<-A                     
+  }  <--B                   
+}<-A                     
 */
 
 //A) Sólo podremos inicar hasta [1] el pimer valor de botones[][][], ya que sólo tenemos
